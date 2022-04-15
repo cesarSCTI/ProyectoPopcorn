@@ -1,0 +1,32 @@
+.Header{
+    height: 10vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0px 8px var(--sombra);
+    padding: 0 5vw;
+    background: #fff;
+}
+.TextoContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Titulo{
+    font-weight: 500;
+    font-size: 28px;
+    padding-right: 20px;
+    border-right: 2px solid #000;
+}
+.SubTitulo{
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.Botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

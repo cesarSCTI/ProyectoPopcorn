@@ -1,0 +1,64 @@
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px var(--sombra);
+    margin: 0px 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+.NameItem{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.btnGreen{
+    background: var(--verde);
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid var(--verde);
+}
+.btnGreen:hover{
+    background: #fff;
+    border: 1px solid var(--verde);
+}
+.btnAmarillo{
+    background: var(--amarillo);
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid var(--amarillo);
+}
+.btnAmarillo:hover{
+    background: #fff;
+    border: 1px solid var(--amarillo);
+}
+.btnCoral{
+    background: var(--coral);
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid var(--coral);
+}
+.btnCoral:hover{
+    background: #fff;
+    border: 1px solid var(--coral);
+}
+.btnItemMenu{
+    border-radius: 15px;
+    border: solid 2px var(--coral);
+    width: 70px;
+    height: 70px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+.btnItemMenu:hover{
+    background-color: var(--coral);
+}
+.btnItemMenu:hover i{
+    color:#fff;
+}
+.btnItemMenu i{
+    color:var(--coral);
+}
