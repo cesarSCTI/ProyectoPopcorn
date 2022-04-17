@@ -25,6 +25,16 @@
     background: #fff;
     border: 1px solid var(--verde);
 }
+.btnGris{
+    background: var(--sombra);
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid var(--sombra);
+}
+.btnGris:hover{
+    background: #fff;
+    border: 1px solid var(--sombra);
+}
 .btnAmarillo{
     background: var(--amarillo);
     padding: 10px 20px;
@@ -44,6 +54,16 @@
 .btnCoral:hover{
     background: #fff;
     border: 1px solid var(--coral);
+}
+.btnAzul{
+    background: var(--azul);
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid var(--azul);
+}
+.btnAzul:hover{
+    background: #fff;
+    border: 1px solid var(--azul);
 }
 .btnItemMenu{
     border-radius: 15px;

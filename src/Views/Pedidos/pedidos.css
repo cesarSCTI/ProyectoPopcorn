@@ -1,0 +1,121 @@
+.contenedorTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5% 0px;
+}
+.contenedorBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5%;
+}
+.d-12{
+    width: 12%;
+    background: var(--coral);
+    color: #fff;
+    font-size: 14px; 
+    padding: 5px;
+    border:1px solid var(--sombra);
+}
+.d-24{
+    width: 24%;
+    color:#fff;
+    background: var(--coral);
+    border:1px solid var(--sombra);
+    font-size: 14px;
+    padding: 5px;
+}
+.d-74{
+    width: 74%;
+    color:#fff;
+    background: var(--coral);
+    border:1px solid var(--sombra);
+    font-size: 14px;
+    padding: 5px;
+}
+.d-12-body{
+    width: 12%;
+    background: #fff;
+    color: #000;
+    font-size: 12px; 
+    padding: 5px;
+    border:1px solid var(--sombra);
+    overflow: hidden;
+}
+.d-24-body{
+    width: 24%;
+    color:#000;
+    background: #fff;
+    border:1px solid var(--sombra);
+    font-size: 12px;
+    padding: 5px;
+}
+.d-74-body{
+    width: 74%;
+    color:#000;
+    background: #fff;
+    border:1px solid var(--sombra);
+    font-size: 12px;
+    padding: 5px;
+}
+.d-24-button{
+    width: 24%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-24-button a{
+    background: var(--coral);
+    color:#fff;
+    padding: 5px 80px;
+    border-radius: 15px;
+    font-size: 12px;
+    box-shadow: 0px 4px 4px var(--sombra);
+    transition: 1s;
+}
+.d-24-button a:hover{
+    box-shadow: 0px 4px 0px var(--sombra);
+}
+.Pedido-Nuevo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-select{
+    width: 60%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.col-pedido{
+    width: 40%;
+    background: #fff;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid var(--sombra);
+}
+.l-item{
+    width: 33%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+.boton-pedido{
+    padding: 30px;
+}
+.enviar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

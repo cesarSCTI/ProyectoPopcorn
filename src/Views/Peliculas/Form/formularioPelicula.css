@@ -1,0 +1,70 @@
+.contenedor{
+    display:flex;
+    justify-content:space-between;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+.d-100{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 98%;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+.d-25{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 23%;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+.d-50{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 48%;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+.labelPelicula{
+    color:#000;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.inputTextPelicula{
+    border: none;
+    background: #fff;
+    height: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px var(--sombra);
+}
+.inputTextPelicula:focus{
+    outline:none;
+}
+textarea{
+    border: none;
+    background: #fff;
+    height: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    min-height: 100px;
+    max-width: 98%;
+    box-shadow: 0px 4px 4px var(--sombra);
+}
+.btnGuardar{
+    background:var(--verde);
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px var(--sombra);
+    transition:1s;
+    cursor: pointer;
+}
+.btnGuardar:hover{
+    box-shadow: 0px 0px 4px var(--sombra);
+}

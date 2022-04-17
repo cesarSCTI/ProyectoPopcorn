@@ -22,6 +22,20 @@ export const ButtonAmarillo = ({text}) => {
       </div>
     )
   }
+  export const ButtonGris = ({text}) => {
+    return (
+      <div className='btn btnGris'>
+      {text}
+      </div>
+    )
+  }
+  export const ButtonAzul = ({text}) => {
+    return (
+      <div className='btn btnAzul'>
+      {text}
+      </div>
+    )
+  }
   export const ButtonItemMenu = ({children, text}) => {
     return (
       <div className='btn btnItemMenu'>

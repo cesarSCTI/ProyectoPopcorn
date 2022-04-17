@@ -8,6 +8,21 @@ import EmpleadoNuevo from './Views/Empleado/EmpleadoNuevo';
 import AlimentosIndex from './Views/Alimentos/AlimentosIndex';
 import AlimentosNuevo from './Views/Alimentos/AlimentosNuevo';
 import AlimentosEditar from './Views/Alimentos/AlimentosEditar';
+import FuncionesIndex from './Views/Funciones/FuncionesIndex';
+import FuncionesNuevo from './Views/Funciones/FuncionesNuevo';
+import FuncionesEdit from './Views/Funciones/FuncionesEdit';
+import PeliculasIndex from './Views/Peliculas/PeliculasIndex';
+import PeliculasNuevo from './Views/Peliculas/PeliculasNuevo';
+import PeliculaEditar from './Views/Peliculas/PeliculaEditar';
+import InsumoIndex from './Views/Insumos/InsumosIndex';
+import InsumoNuevo from './Views/Insumos/InsumosNuevo';
+import InsumoEditar from './Views/Insumos/InsumosEditar';
+import PedidosIndex from './Views/Pedidos/PedidosIndex';
+import PedidosInterior from './Views/Pedidos/PedidosInterior';
+import PedidosNuevo from './Views/Pedidos/PedidosNuevo';
+import ProveedoresIndex from './Views/Proveedores/ProveedoresIndex';
+import ProveedoresNuevo from './Views/Proveedores/ProveedoresNuevo';
+import ProveedoresEditar from './Views/Proveedores/ProveedoresEditar';
 
 function App() {
   return (
@@ -26,6 +41,25 @@ function App() {
               <Route path="alimentos/nuevo" element={<AlimentosNuevo />} />
               <Route path="alimentos/:alimentoID" element={<AlimentosEditar />} />
               {/*Funciones */}
+              <Route path="funciones" element={<FuncionesIndex />} />
+              <Route path="funciones/nuevo" element={<FuncionesNuevo />} />
+              <Route path="funciones/:funcionID" element={<FuncionesEdit />} />
+              {/*Peliculas*/}
+              <Route path="peliculas" element={<PeliculasIndex />} />
+              <Route path="peliculas/nuevo" element={<PeliculasNuevo />} />
+              <Route path="peliculas/:peliculaID" element={<PeliculaEditar />} />
+              {/*Insumos*/}
+              <Route path="insumos" element={<InsumoIndex />} />
+              <Route path="insumos/nuevo" element={<InsumoNuevo />} />
+              <Route path="insumos/:insumoID" element={<InsumoEditar />} />
+              {/*Pedidos*/}
+              <Route path="pedidos/insumos" element={<PedidosIndex />} />
+              <Route path="pedidos/insumos/nuevo" element={<PedidosNuevo />} />
+              <Route path="pedidos/insumos/:pedidoID" element={<PedidosInterior />} />
+              {/*Proveedores*/}
+              <Route path="proveedores" element={<ProveedoresIndex />} />
+              <Route path="proveedores/nuevo" element={<ProveedoresNuevo />} />
+              <Route path="proveedores/:proveedorID" element={<ProveedoresEditar />} />
         </Routes>
         </div>
       </BrowserRouter>
