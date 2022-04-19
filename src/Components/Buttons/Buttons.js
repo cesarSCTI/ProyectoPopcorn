@@ -44,3 +44,11 @@ export const ButtonAmarillo = ({text}) => {
       </div>
     )
   }
+  export const ButtonItemMenuVenta = ({children, text}) => {
+    return (
+      <div className='btn btnItemMenuVenta'>
+      {children}
+        <div className='NameItem'>{text}</div>
+      </div>
+    )
+  }

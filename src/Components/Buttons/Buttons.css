@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    box-shadow: 0px 5px 10px var(--sombra);
+    box-shadow: 0px 4px 4px var(--sombra);
     margin: 0px 5px;
     transition: 1s;
     cursor: pointer;
 }
 .NameItem{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     text-decoration: none;
     color: #000;
@@ -48,11 +48,12 @@
 .btnCoral{
     background: var(--coral);
     padding: 10px 20px;
-    color: #000;
+    color: #fff;
     border: 1px solid var(--coral);
 }
 .btnCoral:hover{
     background: #fff;
+    color:#000;
     border: 1px solid var(--coral);
 }
 .btnAzul{
@@ -67,9 +68,9 @@
 }
 .btnItemMenu{
     border-radius: 15px;
-    border: solid 2px var(--coral);
-    width: 70px;
-    height: 70px;
+    border: solid 1px var(--coral);
+    width: 60px;
+    height: 60px;
     margin: 5px 0;
     background-color: #fff;
 }
@@ -81,4 +82,28 @@
 }
 .btnItemMenu i{
     color:var(--coral);
+}
+.btnItemMenuVenta{
+    border-radius: 15px;
+    border: solid 1px var(--coral);
+    color:#fff;
+    width: 60px;
+    height: 60px;
+    margin: 5px 0;
+    background-color: var(--coral);
+}
+.btnItemMenuVenta *{
+    color:#fff;
+}
+.btnItemMenuVenta:hover{
+    border-radius: 15px;
+    border: solid 2px var(--coral);
+    color:#fff;
+    width: 60px;
+    height: 60px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+.btnItemMenuVenta:hover *{
+    color:#000;
 }

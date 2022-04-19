@@ -4,12 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: 90vh;
-}
-.contenedor-venta::-webkit-scrollbar-track {
-
-
 }
 .itemAlimento{
     width: 19%;
@@ -24,10 +20,49 @@
     align-items: center;
     transition:.5s;
     cursor: pointer;
+    font-size: 12px;
 }
 .itemAlimento span{
     padding-top: 15px;
 }
 .itemAlimento:hover{
     box-shadow: 0 0px 0px var(--sombra);
+}
+.Info-pagos{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-id {
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+.info-id p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+.info-alimentos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow-y: auto;
+}
+.info-alimentos-item{
+    height: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--sombra);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-total{
+    background: var(--verde);
+    height: 25px;
+    width: 100%;
+    padding:10px 20px;
+    display: flex;
+    justify-content: space-between;
 }

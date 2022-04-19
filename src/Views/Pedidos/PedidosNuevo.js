@@ -7,7 +7,7 @@ import FecthPedidoNuevo from './Peticiones/FecthPedidoNuevo'
 const PedidosNuevo = () => {
   return (
     <>
-        <Header Titulo={"Nuevo Pedido"} />
+        <Header Titulo={"Nuevo Pedido"} Subtitulo="Insumos" />
         <div className='Pedido-Nuevo-content'>
             <div className='col-select'>
                 <FecthPedidoNuevo />

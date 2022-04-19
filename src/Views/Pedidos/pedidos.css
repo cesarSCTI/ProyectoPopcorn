@@ -80,29 +80,30 @@
 }
 .Pedido-Nuevo-content{
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 85vw;
+    justify-content: space-between;
 }
 .col-select{
-    width: 60%;
+    width: 58%;
     height: 88vh;
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 .col-pedido{
-    width: 40%;
+    width: 38%;
     background: #fff;
     height: 88vh;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: space-between;
 }
 .list{
     display: flex;
     justify-content:center;
     align-items: center;
-    border: 1px solid var(--sombra);
+    padding: 5px 0;
+    border-bottom: 1px solid var(--sombra);
 }
 .l-item{
     width: 33%;
@@ -118,4 +119,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px;
+    overflow: auto;
 }

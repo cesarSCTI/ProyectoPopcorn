@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonCoral, ButtonGreen } from '../../Components/Buttons/Buttons'
+import './pedidos.css'
 
 const PedidosContexto = () => {
     /*
@@ -10,7 +11,12 @@ const PedidosContexto = () => {
         <div className='list'>
             <div className='l-item'>Maiz</div>
             <div className='l-item'>10KG</div>
-            <div className='l-item'><ButtonCoral text={"x"} /></div>
+            <div className='l-item-center'><ButtonCoral text={"x"} /></div>
+        </div>
+        <div className='list'>
+            <div className='l-item'>Maiz</div>
+            <div className='l-item'>10KG</div>
+            <div className='l-item-center'><ButtonCoral text={"x"} /></div>
         </div>
         <div className='boton-pedido'>
             <ButtonGreen text={"Enviar Pedido"} />

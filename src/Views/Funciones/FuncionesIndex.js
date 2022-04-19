@@ -25,7 +25,7 @@ const FuncionesIndex = () => {
       <div className='d-12-body'>ESTADO</div>
       <div className='d-12-body'>NACIMIENTO</div>
       <div className='d-12-body'>TELEFONO</div>
-      <div className='d-24-button'><Link to="IdInsumoInterior">{/*<ButtonCoral text={"Prueba de ID"} />*/}Prueba id</Link></div>
+      <div className='d-24-button'><Link to="IdFuncionInterior">{/*<ButtonCoral text={"Prueba de ID"} />*/}Prueba id</Link></div>
     </div>
     </>
   )

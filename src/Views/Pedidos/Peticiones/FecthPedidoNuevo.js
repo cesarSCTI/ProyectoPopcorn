@@ -9,35 +9,66 @@ const FecthPedidoNuevo = () => {
     */
   return (
     <>
-    <div className='contenedor'>
-            <div className='d-20'>
+    <div className='contenedor-fetch'>
+            <div className='d-quarter'>
                 <label className='labelPedido'>Insumo</label>
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <label className='labelPedido'>Cantidad</label>
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <label className='labelPedido'>Tipo</label>
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
             </div>
         </div>
         <form>
         <div className='contenedor-pedido'>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <input type="text" className='inputPedido' />
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <input type="text" className='inputPedido' />
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <input type="text" className='inputPedido' />
             </div>
-            <div className='d-20'>
+            <div className='d-quarter'>
                 <ButtonAmarillo text={"Agregar"} />
             </div>
         </div>
-            
+        </form>
+        <form>
+        <div className='contenedor-pedido'>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <ButtonAmarillo text={"Agregar"} />
+            </div>
+        </div>
+        </form>
+        <form>
+        <div className='contenedor-pedido'>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <input type="text" className='inputPedido' />
+            </div>
+            <div className='d-quarter'>
+                <ButtonAmarillo text={"Agregar"} />
+            </div>
+        </div>
         </form>
     </>
   )

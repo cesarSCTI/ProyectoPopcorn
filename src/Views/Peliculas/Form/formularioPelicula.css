@@ -1,7 +1,7 @@
-.contenedor{
+.contenedor-formulario-pelicula{
     display:flex;
     justify-content:space-between;
-    padding: 5% 10%;
+    padding: 2% 10%;
     flex-wrap: wrap;
 }
 .d-100{
@@ -46,15 +46,15 @@
 .inputTextPelicula:focus{
     outline:none;
 }
-textarea{
+.textarea{
     border: none;
     background: #fff;
-    height: 25px;
     padding: 10px;
     border-radius: 25px;
-    min-height: 100px;
+    max-height: 50px;
     max-width: 98%;
     box-shadow: 0px 4px 4px var(--sombra);
+    outline: none;
 }
 .btnGuardar{
     background:var(--verde);

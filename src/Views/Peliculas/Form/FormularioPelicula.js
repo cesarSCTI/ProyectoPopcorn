@@ -4,7 +4,7 @@ import './formularioPelicula.css'
 const FormularioPelicula = () => {
   return (
     <form>
-    <div className='contenedor'>
+    <div className='contenedor-formulario-pelicula'>
       <div className='d-100'>
         <label className='labelPelicula'>nombre</label>
         <input type="text" className="inputTextPelicula" placeholder='Nombre de pelicula'/>
@@ -19,13 +19,11 @@ const FormularioPelicula = () => {
       </div>
       <div className='d-100'>
         <label className='labelPelicula'>descripción</label>
-        <textarea></textarea>
+        <textarea className='textarea'></textarea>
       </div>
-      <div className='d-25'></div>
       <div className='d-50'>
         <button className='btnGuardar'>Guardar</button>
       </div>
-      <div className='d-25'></div>
     </div>
     </form>
   )

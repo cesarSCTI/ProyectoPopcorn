@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link,Outlet } from 'react-router-dom';
-import {ButtonItemMenu  } from '../Buttons/Buttons';
+import { Link} from 'react-router-dom';
+import {ButtonItemMenu, ButtonItemMenuVenta } from '../Buttons/Buttons';
 import './Aside.css'
 const Aside = () => {
   return (
@@ -11,11 +11,8 @@ const Aside = () => {
         <Link to="/funciones"><ButtonItemMenu text={"Funciones"}><i className='bx bxs-calendar' ></i></ButtonItemMenu></Link>
         <Link to="/peliculas"><ButtonItemMenu text={"Peliculas"}><i className='bx bxs-movie' ></i></ButtonItemMenu></Link>
         <Link to="/insumos"><ButtonItemMenu text={"Insumos"}><i className='bx bxs-food-menu' ></i></ButtonItemMenu></Link>
-        <Link to="/venta-alimentos"><ButtonItemMenu text={"Venta alimentos"}><i className='bx bx-money-withdraw' ></i> </ButtonItemMenu></Link>
-        <ButtonItemMenu text={"Venta Boletos"}>
-          <i className='bx bx-money-withdraw' ></i>
-        </ButtonItemMenu>
-        <Outlet/>
+        <Link to="/venta-alimentos"><ButtonItemMenuVenta text={"Venta alimentos"}><i className='bx bx-money-withdraw' ></i> </ButtonItemMenuVenta></Link>
+        <Link to="/venta-boletos"><ButtonItemMenuVenta text={"Venta Boletos"}><i className='bx bx-money-withdraw' ></i> </ButtonItemMenuVenta></Link>
     </div>
   )
 }

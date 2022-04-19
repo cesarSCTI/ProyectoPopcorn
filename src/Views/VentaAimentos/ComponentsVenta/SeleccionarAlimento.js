@@ -16,6 +16,8 @@ const SeleccionarAlimento = () => {
             <div className='itemAlimento'><span>Haburguesa CH</span><span>$20.00</span></div>
             <div className='itemAlimento'><span>Haburguesa CH</span><span>$20.00</span></div>
             <div className='itemAlimento'><span>Haburguesa CH</span><span>$20.00</span></div>
+            <div className='itemAlimento'><span>Haburguesa CH</span><span>$20.00</span></div>
+            
         </div>
     </>
   )

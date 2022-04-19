@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../Components/Header/Header'
 import { Link, useParams } from 'react-router-dom'
 import { ButtonAmarillo, ButtonCoral } from '../../Components/Buttons/Buttons';
+import './ventaAlimentos.css'
 
 const VentaAlimentosInterior = () => {
   const parametro = useParams();
