@@ -1,0 +1,33 @@
+.contenedor-venta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+.contenedor-venta::-webkit-scrollbar-track {
+
+
+}
+.itemAlimento{
+    width: 19%;
+    height: 150px;
+    background: #fff;
+    border-radius: 15px;
+    margin:3%;
+    box-shadow: 0 4px 4px var(--sombra);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:.5s;
+    cursor: pointer;
+}
+.itemAlimento span{
+    padding-top: 15px;
+}
+.itemAlimento:hover{
+    box-shadow: 0 0px 0px var(--sombra);
+}

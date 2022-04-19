@@ -7,7 +7,7 @@ import FormularioProveedores from './Form/FormularioProveedores'
 const ProveedoresNuevo = () => {
   return (
     <>
-        <Header Titulo={"Nuevo Alimento"}>
+        <Header Titulo={"Nuevo Proveedor"}>
             <Link to="/proveedores"><ButtonCoral text={"Cancelar"}/></Link>
         </Header>
         <FormularioProveedores/>

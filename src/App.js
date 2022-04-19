@@ -23,6 +23,10 @@ import PedidosNuevo from './Views/Pedidos/PedidosNuevo';
 import ProveedoresIndex from './Views/Proveedores/ProveedoresIndex';
 import ProveedoresNuevo from './Views/Proveedores/ProveedoresNuevo';
 import ProveedoresEditar from './Views/Proveedores/ProveedoresEditar';
+import VentaAlimentosIndex from './Views/VentaAimentos/VentaAlimentosIndex';
+import VentaAlimentos from './Views/VentaAimentos/VentaAlimentos';
+import VentaAlimentosInterior from './Views/VentaAimentos/VentaAlimentosInterior';
+import VentaAlimentosNuevo from './Views/VentaAimentos/VentaAlimentosNuevo';
 
 function App() {
   return (
@@ -60,6 +64,11 @@ function App() {
               <Route path="proveedores" element={<ProveedoresIndex />} />
               <Route path="proveedores/nuevo" element={<ProveedoresNuevo />} />
               <Route path="proveedores/:proveedorID" element={<ProveedoresEditar />} />
+              {/*Venta Alimentos*/}
+              <Route path="venta-alimentos" element={<VentaAlimentos />} />
+              <Route path="venta-alimentos/todas-las-ventas" element={<VentaAlimentosIndex />} />
+              <Route path="venta-alimentos/nuevo" element={<VentaAlimentosNuevo />} />
+              <Route path="venta-alimentos/:ventaID" element={<VentaAlimentosInterior />} />
         </Routes>
         </div>
       </BrowserRouter>

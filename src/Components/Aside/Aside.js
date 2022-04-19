@@ -9,9 +9,9 @@ const Aside = () => {
         <Link to="/empleados"><ButtonItemMenu text={"Empleados"}><i className='bx bxs-user'></i></ButtonItemMenu></Link>
         <Link to="/alimentos"><ButtonItemMenu text={"Alimentos"}><i className='bx bxs-bowl-rice' ></i></ButtonItemMenu></Link>
         <Link to="/funciones"><ButtonItemMenu text={"Funciones"}><i className='bx bxs-calendar' ></i></ButtonItemMenu></Link>
-        <Link to="peliculas"><ButtonItemMenu text={"Peliculas"}><i className='bx bxs-movie' ></i></ButtonItemMenu></Link>
-        <Link to="insumos"><ButtonItemMenu text={"Insumos"}><i className='bx bxs-food-menu' ></i></ButtonItemMenu></Link>
-        <ButtonItemMenu text={"Venta alimentos"}><i className='bx bx-money-withdraw' ></i> </ButtonItemMenu>
+        <Link to="/peliculas"><ButtonItemMenu text={"Peliculas"}><i className='bx bxs-movie' ></i></ButtonItemMenu></Link>
+        <Link to="/insumos"><ButtonItemMenu text={"Insumos"}><i className='bx bxs-food-menu' ></i></ButtonItemMenu></Link>
+        <Link to="/venta-alimentos"><ButtonItemMenu text={"Venta alimentos"}><i className='bx bx-money-withdraw' ></i> </ButtonItemMenu></Link>
         <ButtonItemMenu text={"Venta Boletos"}>
           <i className='bx bx-money-withdraw' ></i>
         </ButtonItemMenu>
