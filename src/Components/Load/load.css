@@ -1,0 +1,27 @@
+.loading{
+    height: 50px;
+    width: 50px;
+    border-left: solid 3px var(--azul);
+    border-right: solid 3px var(--verde);
+    border-radius: 50px;
+    animation: loading infinite .5s;
+    animation-name: loading;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 4px 4px var(--sombra);
+}
+.contenedorLoading{
+  width: 85vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes loading{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
