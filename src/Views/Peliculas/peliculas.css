@@ -19,6 +19,7 @@
     border:1px solid var(--sombra);
     font-size: 14px;
     padding: 5px;
+    overflow: hidden;
 }
 .contenedorBody{
     display: flex;
@@ -33,6 +34,7 @@
     font-size: 12px; 
     padding: 5px;
     border:1px solid var(--sombra);
+    height: 15px;
     overflow: hidden;
 }
 .d-24-body{
@@ -42,6 +44,7 @@
     border:1px solid var(--sombra);
     font-size: 12px;
     padding: 5px;
+    overflow: hidden;
 }
 .d-12-button{
     width: 12%;

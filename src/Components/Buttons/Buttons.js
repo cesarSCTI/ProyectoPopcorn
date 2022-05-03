@@ -1,37 +1,37 @@
 import React from 'react'
 import './Buttons.css'
 
-export const ButtonGreen = ({text}) => {
+export const ButtonGreen = ({text, onClick}) => {
   return (
-    <div className='btn btnGreen'>
+    <div className='btn btnGreen' onClick={onClick}>
     {text}
     </div>
   )
 }
-export const ButtonAmarillo = ({text}) => {
+export const ButtonAmarillo = ({text, onClick}) => {
     return (
-      <div className='btn btnAmarillo'>
+      <div className='btn btnAmarillo' onClick={onClick}>
       {text}
       </div>
     )
   }
-  export const ButtonCoral = ({text}) => {
+  export const ButtonCoral = ({text, onClick}) => {
     return (
-      <div className='btn btnCoral'>
+      <div className='btn btnCoral' onClick={onClick}>
       {text}
       </div>
     )
   }
-  export const ButtonGris = ({text}) => {
+  export const ButtonGris = ({text, onClick}) => {
     return (
-      <div className='btn btnGris'>
+      <div className='btn btnGris' onClick={onClick}>
       {text}
       </div>
     )
   }
-  export const ButtonAzul = ({text}) => {
+  export const ButtonAzul = ({text, onClick}) => {
     return (
-      <div className='btn btnAzul'>
+      <div className='btn btnAzul' onClick={onClick}>
       {text}
       </div>
     )
