@@ -7,8 +7,6 @@ import { ButtonAmarillo, ButtonGreen } from '../../../Components/Buttons/Buttons
 import './formularioAlimentos.css'
 import * as yup from "yup";
 
-
-
 const FormularioAlimentos = ({idAlimento}) => {
 const navigate = useNavigate();
 const [error, setError] = useState(false);

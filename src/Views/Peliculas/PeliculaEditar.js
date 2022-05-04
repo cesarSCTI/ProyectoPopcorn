@@ -35,7 +35,7 @@ const PeliculaEditar = () => {
         <FormularioPeliculasEditar/>
         {
           alerta && 
-          <AlertaWarning Text="¿Deseas eliminar este alimento?">
+          <AlertaWarning Text="¿Deseas eliminar esta pelicula?">
             <ButtonAmarillo text="Cancelar"  onClick={()=>setAlerta(false)}/>
             <ButtonCoral text="Eliminar" onClick={()=>eliminarAlimento()}/>
           </AlertaWarning>
