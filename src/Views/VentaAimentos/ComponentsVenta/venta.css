@@ -35,6 +35,8 @@
 }
 .info-id {
     display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
     text-align: left;
     width: 100%;
 }
@@ -65,4 +67,10 @@
     padding:10px 20px;
     display: flex;
     justify-content: space-between;
+}
+.NombreAlimento{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: capitalize;
 }

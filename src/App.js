@@ -31,10 +31,12 @@ import VentaBoletos from './Views/VentaBoletos/VentaBoletos';
 import VentaBoletosIndex from './Views/VentaBoletos/VentaBoletosIndex';
 import VentaBoletosInterior from './Views/VentaBoletos/VentaBoletosInterior';
 import VentaBoletosNuevo from './Views/VentaBoletos/VentaBoletosNuevo';
+import VentaAlimentosProvider from './Context/VentaAlimentosContext';
 
 function App() {
   return (
     <div className='Main'>
+    <VentaAlimentosProvider>
       <BrowserRouter>
       <Aside /> 
       <div className='MainLeft'>
@@ -78,9 +80,11 @@ function App() {
               <Route path="venta-boletos/todas-las-ventas" element={<VentaBoletosIndex />} />
               <Route path="venta-boletos/nuevo" element={<VentaBoletosNuevo />} />
               <Route path="venta-boletos/:ventaID" element={<VentaBoletosInterior />} />
+
         </Routes>
         </div>
       </BrowserRouter>
+      </VentaAlimentosProvider>
     </div>
   );
 }

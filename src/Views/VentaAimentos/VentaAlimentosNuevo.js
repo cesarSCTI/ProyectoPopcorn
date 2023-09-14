@@ -5,6 +5,10 @@ import SeleccionarAlimento from './ComponentsVenta/SeleccionarAlimento'
 import './ventaAlimentos.css'
 
 const VentaAlimentosNuevo = () => {
+/*const {venta, F_Agregar} = useContext(VentaAlimentosContext)
+  useEffect(()=>{
+    F_Agregar()
+  },[])*/
   return (
     <>
         <Header Titulo={"Venta Alimentos"} Subtitulo="nueva venta"/>
